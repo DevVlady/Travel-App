@@ -16,11 +16,11 @@ const Navbar = () => {
                 </div>
                 <div className='navOptions'>
                     <a href="/flights">Flights</a>
-                    <a href="/flights">Flights</a>
-                    <a href="/flights">Flights</a>
-                    <a href="/flights">Flights</a>
-                    <a href="/flights">Flights</a>
-                    <a href="/flights">Flights</a>
+                    <a href="/hotels">Hotels</a>
+                    <a href="/ideas">Ideas</a>
+                    <a href="/restaurants">Restaurants</a>
+                    <a href="/reviews">Reviews</a>
+                    <a href="/more">More</a>
                 </div>
             </nav>
         </div>
