@@ -1,0 +1,69 @@
+// Variables & values for navbar
+$bgcolor: gray;
+$textcolor: white;
+$fontsize: 20px;
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 150px;
+    background-color: $bgcolor;
+    font-size: $fontsize;
+    color: $textcolor;
+    margin-top: -5px;
+
+    a{
+        text-decoration: none;
+        color: $textcolor;
+        float: right;
+        padding: 10px;
+        margin: 5px;
+
+        &:hover {
+            border: 1px solid black;
+            border-radius: 30px;
+            background: black;
+            color: $textcolor;
+        }
+    }
+
+    h3 {
+        margin: 5px;
+        padding: 10px;
+    }
+}
+
+.signinBtn{
+    text-decoration: none;
+    color: $textcolor;
+    float: right;
+    background: blue;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30px;
+
+    &:hover{
+        background: black;
+    }
+}
+
+.navOptions {
+    margin: 15px;
+
+    a{
+        background: black;
+        padding: 20px;
+        border-radius: 20px;
+        width: 150px;
+        text-align: left;
+        float: left;
+
+        &:hover{
+            background: white;
+            color: black;
+            border-radius: 20px;
+        }
+    }
+}
