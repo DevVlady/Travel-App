@@ -1,0 +1,27 @@
+// Variables & values for navbar
+$bgcolor: gray;
+$textcolor: white;
+$fontsize: 20px;
+
+body {
+    margin: 0;
+}
+
+nav {
+    height: 150px;
+    background-color: $bgcolor;
+    font-size: $fontsize;
+    color: $textcolor;
+}
+
+nav {
+    a{
+        text-decoration: none;
+        color: $textcolor;
+        float: right;
+        background: royalblue;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 30px;
+    }
+}
