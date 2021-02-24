@@ -4,6 +4,32 @@ $textcolor: white;
 $fontsize: 20px;
 
 .card {
-    margin-top: .025rem;
-    margin-bottom: 0.25rem;
+    font-size: $fontsize;
+    padding: .5rem;
+    text-align: left;
+    float: left;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    float: left;
+    border: solid black .2rem;
+    opacity:0.8;
+    transition: 0.3s;
+        &:hover{
+            border: solid black .2rem;
+            background: white;
+            color: black;
+            border-radius: 20px;
+            opacity: 1;
+        }
+        &:active{
+            border: solid black .2rem;
+            background: black;
+            color: white;
+            border-radius: 20px;
+        }
+}
+
+.card-container {
+    padding-bottom: 2rem;
 }
