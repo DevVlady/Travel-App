@@ -23,8 +23,8 @@ nav {
 
         &:hover {
             border: 1px solid black;
-            border-radius: 30px;
-            background: black;
+            border-radius: 5%;
+            background: $bgcolor;
             color: $textcolor;
         }
     }
@@ -37,15 +37,15 @@ nav {
 
 .signinBtn{
     text-decoration: none;
-    color: $textcolor;
+    color: black;
     float: right;
-    background: $bgcolor;
+    background: whitesmoke;
     padding: 10px;
     margin: 5px;
-    border-radius: 30px;
+    border-radius: 5%;
 
     &:hover{
-        background: black;
+        background: $bgcolor;
     }
 }
 
