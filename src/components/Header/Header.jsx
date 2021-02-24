@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.scss';
-import Card from '../Card/Card';
 import { BsThreeDots } from 'react-icons/bs';
 import {GiCommercialAirplane} from 'react-icons/gi';
 import {RiFileList3Fill} from 'react-icons/ri';
@@ -13,34 +12,63 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/flights">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    {/*  */}
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/hotels">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    {/*  */}
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/todo">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    {/*  */}
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/restaurants">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    {/*  */}
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/reviews">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
+                    {/*  */}
                     <div className="col-lg-2 col-md-6 col-xs-6 card-container">
-                    <a href="/more">
-                    <Card />
-                    </a>
+                        <a href="/flights">
+                            <div className="card">
+                                <div className="card-body">
+                                    <h5 className="card-title">card title</h5>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
