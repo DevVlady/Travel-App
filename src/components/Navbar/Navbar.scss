@@ -9,7 +9,7 @@ body {
 
 nav {
     height: 150px;
-    background-color: $bgcolor;
+    background-color: black;
     font-size: $fontsize;
     color: $textcolor;
     margin-top: -5px;
@@ -39,7 +39,7 @@ nav {
     text-decoration: none;
     color: $textcolor;
     float: right;
-    background: blue;
+    background: $bgcolor;
     padding: 10px;
     margin: 5px;
     border-radius: 30px;
