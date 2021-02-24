@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import { BsFillHeartFill } from 'react-icons/bs';
 import { ImBell } from 'react-icons/im';
+import {GiCommercialAirplane} from 'react-icons/gi';
 
 const Navbar = () => {
 
@@ -15,7 +16,7 @@ const Navbar = () => {
                     <h3>Travel App</h3>
                 </div>
                 <div className='navOptions'>
-                    <a href="/flights">Flights</a>
+                    <a href="/flights">Flights <GiCommercialAirplane /></a>
                     <a href="/hotels">Hotels</a>
                     <a href="/ideas">Ideas</a>
                     <a href="/restaurants">Restaurants</a>
