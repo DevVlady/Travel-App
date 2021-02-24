@@ -7,7 +7,8 @@ $fontsize: 20px;
     font-size: $fontsize;
     padding: .5rem;
     text-align: left;
-    float: left;
+    // float: left;
+    width: 300px;
     background: white;
     border-radius: 20px;
     text-align: left;
@@ -28,8 +29,4 @@ $fontsize: 20px;
             color: white;
             border-radius: 20px;
         }
-}
-
-.card-container {
-    padding-bottom: 2rem;
 }
