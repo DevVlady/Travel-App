@@ -1,0 +1,52 @@
+// Variables & values for header
+$bgcolor: gray;
+$textcolor: white;
+$fontsize: 20px;
+
+.header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.card {
+    padding: .5rem;
+    text-align: left;
+    width: 300px;
+    background: white;
+    border-radius: 20px;
+    text-align: left;
+    border: solid black .2rem;
+    opacity:0.8;
+    transition: 0.3s;
+        &:hover{
+            border: solid black .2rem;
+            background: white;
+            color: black;
+            border-radius: 20px;
+            opacity: 1;
+        }
+        &:active{
+            border: solid black .2rem;
+            background: black;
+            color: white;
+            border-radius: 20px;
+        }
+}
+
+a {
+    color:black;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.card-container {
+    padding: .25rem .25rem;
+    display: flex;
+    justify-content: center;
+}
